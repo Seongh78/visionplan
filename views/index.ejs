@@ -30,55 +30,96 @@
         background-image: url('/img/bgbg.jpeg');
         background-position: center center;
         background-size: cover;
+        font-family: '맑은 고딕', 'Malgun gothic', 'Nanum gothic', 'Apple gothic'
     }
         .logos{
             width:100%;
-            max-width: 480px;
+            max-width: 650px;
             box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.15);
         }
-        .logos div{
+        .logos a{
             border: 1px solid #e1e1e1 !important;
-            width: 100%;
-            padding: 5% 17%;
+            padding: 2.5% 7%;
             background: #fff;
-            width: 100%;
+            /*width: 100%;*/
         }
-        .logos div:hover{
+        .logos a:hover{
             background: #e5e5e5;
+        }
+
+
+
+
+        .header-wrap{
+            margin:35px 0;
+            padding-top:66px;
+
+            text-align: center;
         }
     </style>
 
   </head>
 
   <body id="page-top">
+      <div class="wraper container-fluid" style="background:rgba(0,0,0, 0.55); width:100%; height:100%; padding:0;">
+
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light  container-fluid" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Visionplan</a>
-        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li> -->
           </ul>
         </div>
+
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex" style="background:rgba(0,0,0, 0.55);">
+    <div class="container-fluid header-wrap">
+
+        <div class="col-lg-8 mx-auto text-center">
+          <h3 class="text-uppercase section-heading text-white">
+              <strong>"성공이란 오래된 습관의 결정체다"</strong><br>
+              <small style="font-size:0.6em;">- 생각의 비밀 중 -</small>
+          </h3>
+          <hr class="light my-4">
+          <!-- <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background:rgba(255,255,255, 0.93); padding:5%; ">
+
+        <div class="col-lg-8 mx-auto text-center">
+          <h3><img src="/img/logo/visionplan_vertical_logo.png" alt="" width="85"></h3>
+          <h4 style="margin-top:25px;">꿈을 맺다</h4>
+          <p style="font-size:0.85em; color: #3a3a3a;">누구나 꿈을 향한 성공스토리를 만들고 공유하고자 합니다</p>
+          <div class="" style="margin:35px;">
+              <a class="btn btn-xl js-scroll-trigger" href="#about" style="color:#b5b5b5; border:1px solid #b5b5b5; ">준비중</a>
+          </div>
+
+          <div class="btn-group logos" role="group" aria-label="Basic example ">
+              <a class="btn-group btn-group-lg" role="group" aria-label="..." href="#" >
+                  <img src="/img/logo/visionplan_logo.png" width="100%" height="100%" alt="">
+              </a>
+              <a class="btn-group" role="group" aria-label="..." href="http://www.acastar.co.kr/" target="_blank">
+                  <img src="/img/logo/acastar_logo.png" width="100%" height="100%" alt="">
+              </a>
+              <a class="btn-group btn-group-sm" role="group" aria-label="..." href="http://www.bluekings.co.kr/" target="_blank">
+                  <img src="/img/logo/bluekings_logo.png" width="100%" height="100%" alt="">
+              </a>
+          </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- <div class="masthead text-center text-white d-flex" style="background:rgba(0,0,0, 0.55);">
       <div class="container-fluid my-auto">
         <div class="row">
 
@@ -103,21 +144,15 @@
                 <br>
 
                 <div class="btn-group logos" role="group" aria-label="Basic example ">
-                    <a href="#">
                     <div class="btn-group btn-group-lg" role="group" aria-label="..." >
                         <img src="/img/logo/visionplan_logo.png" width="100%" height="100%" alt="">
                     </div>
-                    </a>
-                    <a href="http://www.acastar.co.kr/">
                     <div class="btn-group" role="group" aria-label="...">
                         <img src="/img/logo/acastar_logo.png" width="100%" height="100%" alt="">
                     </div>
-                    </a>
-                    <a href="http://www.bluekings.co.kr/">
                     <div class="btn-group btn-group-sm" role="group" aria-label="...">
                         <img src="/img/logo/bluekings_logo.png" width="100%" height="100%" alt="">
                     </div>
-                    </a>
                 </div>
 
             </div>
@@ -125,7 +160,7 @@
         </div>
 
       </div>
-    </header>
+  </div> -->
 
     <!-- <section class="bg-primary" id="about">
       <div class="container">
@@ -216,6 +251,9 @@
       </div>
     </section> -->
 
+
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -227,6 +265,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+
+
+    </div>
 
   </body>
 
